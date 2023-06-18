@@ -3,6 +3,8 @@ const input = document.querySelector(".input");
 const equal = document.querySelector("#equal");
 const operators = document.querySelectorAll(".operator");
 const del = document.querySelector(".del");
+const clear=document.querySelector(".clr")
+
 
 function results(e) {
   input.value += e.target.value;
@@ -29,6 +31,6 @@ function delete2() {
   input.value = "";
 }
 del.addEventListener("click", delete1);
-del.addEventListener("dblclick", delete2);
+clear.addEventListener("click", delete2);
 
 equal.addEventListener("click", calculate);
