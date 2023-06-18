@@ -9,21 +9,18 @@ const clear=document.querySelector(".clr")
 function results(e) {
   input.value += e.target.value;
 }
-
+// FOR EACH METHOD and event listener
 btn.forEach((btn) => {
   btn.addEventListener("click", results);
 });
-
 operators.forEach((operator) => {
   operator.addEventListener("click", results);
 });
-
 calculate = function calc() {
   const expression = input.value;
   const result = eval(expression);
   input.value = ` ${result}`;
 };
-
 function delete1() {
   input.value = input.value.slice(0, -1);
 }
@@ -32,5 +29,4 @@ function delete2() {
 }
 del.addEventListener("click", delete1);
 clear.addEventListener("click", delete2);
-
 equal.addEventListener("click", calculate);
