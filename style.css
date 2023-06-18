@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.btns {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  width: 250px;
+}
+.all {
+  border: none;
+  padding: 29px;
+  color: aqua;
+  background-color: rgb(27, 35, 42);
+
+  box-shadow: -8px -8px 15px rgba(27, 35, 42,0.97),
+    5px 5px 15px rgba(18, 16, 26, 0.686);
+  border-radius: 7px;
+  position: relative;
+}
+.container {
+  margin: 100px 200px;
+  height: 100vh;
+  padding: 20px;
+  /* background-color: hwb(0 36% 63% / 0.902); */
+}
+div.wrapper .input {
+  width: 370px;
+  height: 100px;
+  background-color: azure;
+  border: none;
+  padding: 23px;
+  margin: 15px;
+  border-radius: 7px;
+  border: 1px solid hwb(0 21% 69% / 0.902);
+  text-align: right;
+  font-weight: bolder;
+  font-size: 1.3rem;
+  display: block;
+}
+
+.operators {
+    padding: 20px;
+    height: 350px;
+    border: none;
+  border-radius: 5px;
+  background-color: rgb(25, 40, 52);
+  box-shadow: -8px -8px 15px rgba(28, 28, 41, 0.97),
+    5px 5px 15px rgba(24, 19, 41, 0.763);
+  display: flex;
+  flex-direction: column;
+  flex-flow: flex-end;
+  position: absolute;
+  top: 260px;
+  left: 500px;
+}
+
+.container div.wrapper {
+  background-color: rgb(27, 35, 42);
+  padding: 7px;
+  border-radius: 7px;
+  width: 400px;
+  height: 520px;
+}
+
+.action{
+    border: none;
+  color: aqua;
+  background-color: rgb(25, 40, 52);
+
+  padding: 25px;
+}
