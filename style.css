@@ -9,21 +9,24 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
-  width: 250px;
 }
 
 .all {
   border: none;
+  outline: none;
   padding: 29px;
-  color: aqua;
+  color: aquamarine;
   background-color: rgb(27, 35, 42);
   box-shadow: -8px -8px 15px rgba(27, 35, 42, 0.97),
     5px 5px 15px rgba(18, 16, 26, 0.686);
   border-radius: 7px;
+  font-weight: 900;
 }
 
 .container {
-  margin: 0 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   height: 100vh;
   padding: 20px;
 }
@@ -33,17 +36,14 @@ div.wrapper .input {
   height: 100px;
   background-color: azure;
   border: none;
-  padding: 23px;
-  margin: 15px;
+  outline: none;
+  padding: 10px;
+  margin: 15px 0;
   border-radius: 7px;
-  border: 1px solid hwb(0 21% 69% / 0.902);
   text-align: right;
   font-weight: bolder;
   font-size: 1.3rem;
-  display: block;
 }
-
-
 
 .container div.wrapper {
   background-color: rgb(27, 35, 42);
@@ -53,9 +53,13 @@ div.wrapper .input {
 }
 
 .action {
+  font-weight: 900;
+  font-size: 0.9rem;
   border: none;
-  color: rgb(41, 47, 214);
-  background-color: rgb(7, 31, 52);
+  color: rgb(41, 126, 187);
+  background-color: rgb(27, 35, 42);
+  box-shadow: -8px -8px 15px rgba(27, 35, 42, 0.97),
+    5px 5px 15px rgba(18, 16, 26, 0.686);
   padding: 25px;
 }
 
