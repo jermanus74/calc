@@ -4,13 +4,11 @@
   box-sizing: border-box;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
-
 .btns {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
 }
-
 .all {
   border: none;
   outline: none;
@@ -22,7 +20,6 @@
   border-radius: 7px;
   font-weight: 900;
 }
-
 .container {
   display: flex;
   flex-direction: column;
@@ -30,19 +27,35 @@
   height: 100vh;
   padding: 20px;
 }
-
 div.wrapper .input {
   width: 300px;
-  height: 100px;
+  height: 50px;
   background-color: azure;
   border: none;
   outline: none;
   padding: 10px;
-  margin: 15px 0;
   border-radius: 7px;
   text-align: right;
   font-weight: bolder;
   font-size: 1.3rem;
+}
+div.wrapper .input1 {
+  width: 300px;
+  height: 50px;
+  background-color: azure;
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 7px;
+  text-align: right;
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+.wrapper div.inputs{
+  margin: 15px 0;
+border-radius: 9px;
+  background-color: #fff;
+  height: 100px;
 }
 
 .container div.wrapper {
@@ -51,7 +64,6 @@ div.wrapper .input {
   border-radius: 7px;
   width: 340px;
 }
-
 .action {
   font-weight: 900;
   font-size: 0.9rem;
